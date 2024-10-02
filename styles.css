@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.header{
+    background: #1F2937;
+    color: #F9FAF8;
+    flex-direction: column;
+    padding: 16px 128px;
+    display:flex;
+}
+
+.top_header, .bottom_header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    gap: 32px;
+    
+}
+
+.logo_left,.links_right{
+    display: flex;
+    align-items: center;
+}
+
+.logo_left{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.links_right{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.link_text, a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+.inn_header{
+    font-size: 48px;
+    font-family: 900;
+    margin-bottom: 16px;
+}
+
+.sign-up-button{
+    padding: 4px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+}
+
+.bottom_header img{
+    width:500px;
+}
+
