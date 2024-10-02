@@ -8,6 +8,7 @@ body {
   }
 
 .header{
+    flex: 1;
     background: #1F2937;
     color: #F9FAF8;
     flex-direction: column;
@@ -16,12 +17,10 @@ body {
 }
 
 .top_header, .bottom_header{
-    flex:1;
     display: flex;
     justify-content: space-between;
     margin-bottom: 32px;
     gap: 32px;
-    
 }
 
 .logo_left,.links_right{
@@ -68,12 +67,38 @@ body {
 
 .info_section, .popup_section{
     flex:1;
+    box-sizing: border-box;
     background: white;
     padding: 16px 10%;
 }   
 
+.info_section .inn_header{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.card .link_text{
+    color: #1F2937;
+    text-align: center;
+}
+
+.card_img{
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border:5px solid #3882F6;
+    border-radius: 12px;
+}
+    
 .quote_section{
     flex:1;
+    box-sizing: border-box;
     background: #E5E7EB;
     padding: 16px 10%;
     display:flex;
@@ -109,8 +134,7 @@ body {
     border-radius: 12px;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
-   
+    justify-content:space-evenly;  
 }
 
 .popup .sign-up-button{
